@@ -27,9 +27,7 @@ def game():
 
     # dokud odpovídá správně hraje dál
     while lets_continue:
-        # # pro testovací účely. pak smazat
-        # print(f"Tesovací výpis - účet 1: {account_1['follower_count']}")
-        # print(f"Tesovací výpis - účet 2: {account_2['follower_count']}")
+       
         
         printing_options(account_1, account_2)
 
